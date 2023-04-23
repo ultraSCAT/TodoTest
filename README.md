@@ -51,7 +51,7 @@ Debe tener instalado Composer y Node para ajustarse a los pasos
 2. En una nueva terminal y dentro de la carpeta frontTodo debera ejecutar ``npm run serve`` , se ejecuta en el puerto 8080
 3. En una nueva terminal debe entrar a la carpeta socketTodo y ejecutar ``npm start``, se ejecuta en el puerto 4000
 
-Luego de que los servidor se ejecutan puede acceder a la version dev del projecto desde este [Enlace](http://localhost:8080/)
+Luego de que los servidor se ejecutan puede acceder a la version dev del projecto desde este [Enlace](http://localhost:8080/login)
 
 ## Descripción del proyecto
 
