@@ -1,6 +1,6 @@
 # Todo List
 
-Este es una aplicación de lista de tareas CRUD construida con Laravel 10, Vue 3 y MySQL. Node.js se utiliza para eventos en tiempo real con Socket.IO.
+Este es una aplicación de 'lista de tareas' CRUD construida con Laravel 10, Vue 3 y MySQL. Node.js se utiliza para eventos en tiempo real con Socket.IO.
 
 ### Usuarios (clave password)
 - `john@example.com`
@@ -55,7 +55,7 @@ Luego de que los servidor se ejecutan puede acceder a la version dev del project
 
 ## Descripción del proyecto
 
-Este proyecto es una aplicación de 'lista de tareas que permite a los usuarios agregar, eliminar y actualizar tareas. La aplicación es una interfaz de usuario simple y fácil de usar que se comunica con el servidor a través de una API RESTful.
+Este proyecto es una aplicación de 'lista de tareas' que permite a los usuarios agregar, eliminar y actualizar tareas. La aplicación es una interfaz de usuario simple y fácil de usar que se comunica con el servidor a través de una API RESTful.
 
 La aplicación utiliza Laravel 10 en el lado del servidor para manejar las solicitudes de la API RESTful. MySQL se utiliza como base de datos para almacenar las tareas y su estado de finalización. La aplicación también utiliza Vue.js en el lado del cliente para crear una interfaz de usuario receptiva y fácil de usar.
 
@@ -63,7 +63,6 @@ Para actualizar en tiempo real la lista de tareas, la aplicación utiliza Node.j
 
 Como la aplicación se ejecuta localmente, Socket.IO utiliza Long Polling para la comunicación en tiempo real. Para un entorno de producción, se debe configurar adecuadamente para utilizar WebSockets o alguna otra estrategia de comunicación en tiempo real más eficiente.
 
-La aplicación permite a los usuarios crear nuevas tareas, editar tareas existentes, marcar tareas como completadas y eliminar tareas. La aplicación también muestra una lista de todas las tareas en una tabla.
 
 ## Paleta de colores
 
