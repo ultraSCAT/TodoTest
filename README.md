@@ -25,11 +25,11 @@ Debe tener instalado Composer y Node para ajustarse a los pasos
     cd backTodo
     composer install
 ```
-4. Debera crear un archivo .env o utilizar el de ejemplo con el comando
+4. Debe crear un archivo .env o utilizar el de ejemplo con el comando
 ```console 
     mv .env.example .env
 ```
-5. Ejecute el siguiente comando para crear las tablas de la base de datos y agregar datos base, la clave de todos los usuarios es password y 2 usuarios que siempre.
+5. Ejecute el siguiente comando para crear las tablas de la base de datos y agregar datos base, la clave de todos los usuarios es password.
 ```console
     php artisan key:generate
     php artisan migrate --seed
@@ -49,7 +49,7 @@ Debe tener instalado Composer y Node para ajustarse a los pasos
 + ### Iniciar servidores
 1. Dentro de la carpeta backTodo debe ejecutar `` php artisan serve `` este comando toma control de la consola, debe abrir una nueva para cada paso, se ejecuta en el puerto 8000.
 2. En una nueva terminal y dentro de la carpeta frontTodo debera ejecutar ``npm run serve`` , se ejecuta en el puerto 8080
-3. En una nueva terminal debe entrar a la carpeta socketTodo y ejecutar ``npm run serve``, se ejecuta en el puerto 4000
+3. En una nueva terminal debe entrar a la carpeta socketTodo y ejecutar ``npm start``, se ejecuta en el puerto 4000
 
 Luego de que los servidor se ejecutan puede acceder a la version dev del projecto desde este [Enlace](http://localhost:8080/)
 
