@@ -1,6 +1,8 @@
 # Todo List
 
-Este es una aplicación de 'lista de tareas' CRUD construida con Laravel 10, Vue 3 y MySQL. Node.js se utiliza para eventos en tiempo real con Socket.IO.
+Este es una aplicación de 'lista de tareas' CRUD construida con Laravel 10, Vue 3 y MySQL.
+
+Node.js se utiliza para eventos en tiempo real con SocketIO `(debe ingresar desde varios usuarios para verlo en funcionamiento)`.
 
 ### Usuarios (clave password)
 - `john@example.com`
