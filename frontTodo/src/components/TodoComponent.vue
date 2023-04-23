@@ -220,7 +220,7 @@
           notify({
             title: title,
             text: 'eliminado por: '+data.sender,
-            type: 'warning'
+            type: 'error'
           });
         });
 
