@@ -46,7 +46,7 @@ Debe tener instalado Composer y Node para ajustarse a los pasos
     npm install
 ```
 
-+ ### Iniciar servidores
+### Iniciar servidores
 1. Dentro de la carpeta backTodo debe ejecutar `` php artisan serve `` este comando toma control de la consola, debe abrir una nueva para cada paso, se ejecuta en el puerto 8000.
 2. En una nueva terminal y dentro de la carpeta frontTodo debera ejecutar ``npm run serve`` , se ejecuta en el puerto 8080
 3. En una nueva terminal debe entrar a la carpeta socketTodo y ejecutar ``npm start``, se ejecuta en el puerto 4000
