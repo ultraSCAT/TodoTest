@@ -16,36 +16,36 @@ Debe tener instalado Composer y Node para ajustarse a los pasos
 ### Instalar dependencias
 1. Clona el repositorio en tu máquina local:
 ```console
-    git clone https://github.com/ultraSCAT/TodoTest.git
+git clone https://github.com/ultraSCAT/TodoTest.git
 ```
 2. Navega al directorio del proyecto en tu terminal: 
 ```console
-    cd TodoTest
+cd TodoTest
 ```
 3. Ingresa a la carpeta backTodo e instala las dependencias
 ```console
-    cd backTodo
-    composer install
+cd backTodo
+composer install
 ```
 4. Debe crear un archivo .env o utilizar el de ejemplo con el comando
 ```console 
-    mv .env.example .env
+mv .env.example .env
 ```
 5. Ejecute el siguiente comando para crear las tablas de la base de datos y agregar datos base, la clave de todos los usuarios es password.
 ```console
-    php artisan key:generate
-    php artisan migrate --seed
-    php artisan db:seed --class=UserSeeder
+php artisan key:generate
+php artisan migrate --seed
+php artisan db:seed --class=UserSeeder
 ```
 5. Ahora en la carpeta frontTodo debemos instalar sus dependencias
 ```console
-    cd ../frontTodo
-    npm install
+cd ../frontTodo
+npm install
 ```
 3. Luego se deben instalar las dependiencias del socket 
-```code
-    cd ../socketTodo
-    npm install
+```console
+cd ../socketTodo
+npm install
 ```
 
 ### Iniciar servidores
